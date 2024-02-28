@@ -65,7 +65,7 @@ const HappyCustomer: react.FC = () => {
                   height: "24px",
                   backgroundColor: "#071731",
                   borderRadius: "100px 0px 0px 100px",
-                  marginRight: "15px",
+                  marginRight: "9px",
                 }}
               ></div>
               <div

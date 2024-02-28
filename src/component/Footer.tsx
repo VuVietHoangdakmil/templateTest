@@ -44,7 +44,7 @@ const Col: react.FC<PropsCol> = ({ title, list }) => {
 };
 const Contact: react.FC = () => {
   return (
-    <div className="w-[1121px] h-[432px] mx-auto flex justify-between">
+    <div className="w-[100%] h-[350px] mx-auto  flex justify-between">
       <div>
         <div
           className="w-[61px] h-[52px]"
@@ -100,7 +100,7 @@ const Contact: react.FC = () => {
             { name: "Facebook", active: false },
             { name: "Twitter", active: false },
             { name: "Instagram", active: false },
-            { name: "Tik Tok", active: false },
+            { name: "TikTok", active: false },
           ]}
         />
       </div>
@@ -111,7 +111,7 @@ const Contact: react.FC = () => {
 const SendMessage: react.FC = () => {
   return (
     <div
-      className="w-[1280px] h-[422px]"
+      className="w-[1280px] h-[422px] drop-shadow-lg"
       style={{
         borderTopRightRadius: "60px",
         borderBottomLeftRadius: "60px",
@@ -177,7 +177,7 @@ const SendMessage: react.FC = () => {
 };
 const Footer: react.FC = () => {
   return (
-    <div className="h-[1022px]">
+    <div>
       <div
         className="h-[801px] mt-[300px]"
         style={{ backgroundColor: "#000000", position: "relative" }}
@@ -194,6 +194,27 @@ const Footer: react.FC = () => {
         </div>
         <div className="p-[300px]">
           <Contact />
+          <div
+            style={{
+              backgroundColor: "#FFFFFF",
+              height: "1px",
+              width: "100%",
+              color: "red",
+              margin: "0 auto",
+            }}
+          ></div>
+          <div
+            style={{
+              fontWeight: 400,
+              fontSize: "14px",
+              lineHeight: "14px",
+              textAlign: "center",
+              color: "#94999C",
+              marginTop: "50px",
+            }}
+          >
+            © 2022 VoiCoffee - All rights reserved.
+          </div>
         </div>
       </div>
     </div>
